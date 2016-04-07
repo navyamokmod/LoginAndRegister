@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/dis"
+>
+    <TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Username"
+
+        />
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/blogin"
+        android:text="Login"/>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Register here!"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/tvRegisterLink"
+
+
+        android:layout_weight="0" />
+
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPassword"
+        android:text="Remember me!"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>
